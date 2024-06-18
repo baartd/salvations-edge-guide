@@ -1,18 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-.icon-block {
-  padding: 0 15px;
-}
-
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
 iframe {
   width: 100%;
   height: 920px;
@@ -38,4 +23,12 @@ iframe {
   font-size: 16px;
   border-bottom: 1px solid;
   border-color: rgba(209, 213, 219, 1);
+}
+
+.collapsible {
+  text-align: left;
+}
+
+.collapsible-body ul li {
+  list-style-type: decimal;
 }
